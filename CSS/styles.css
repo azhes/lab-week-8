@@ -1,75 +1,57 @@
-* {
-    background-color: #E5DADA;
-    font-family: 'Cutive Mono', monospace;
+body {
+    background-color: #db504a
 }
 
-h1 {
-    color: #02040F;
+header {
+    height: 5rem;
+    background-color: #6e8783;
+    top: 0;
+    border: 3px #334259 solid;
 }
 
-h2 {
-    color: #02040F
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-p {
-    color: #02040F
+.navopt {
+    display: flex;
+    list-style: none;
 }
 
-.crumbs {
-    color: #002642;
-    border: 4mm ridge #E59500;
-    font-family: 'Cutive Mono', monospace;
-    float: left;
+.navitem {
+    padding: 1rem;
 }
 
-.crumbs {
-    padding: 0px;
-    text-decoration: none;
-    position: fixed;
-    z-index: 100;
+.navitem:hover {
+    background-color: #edddd0
 }
 
-.crumb {
-    display: inline;
-    padding: 8px;
-    text-align: center;
-    padding: 6px 8px;
+a:visited {
+    color: #334259
 }
 
-.crumb:hover {
-    background-color: #002642;
+.about {
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: 10rem 10rem;
+    gap: 5px;
 }
 
-#courselist {
-    color: #002642;
-    border: 4mm ridge #E59500;
-    font-family: 'Cutive Mono', monospace;
-    position: absolute;
-    top: 8rem
+.title {
+    font-size: 2rem;
 }
 
-.floating1 {
-    clear: both;
-    float: right;
-    padding: 15px;
+.subtitle {
+    grid-row: 2;
 }
 
-.floating2 {
-    clear: both;
-    float: right;
-    padding: 15px;
+.abouttext {
+    grid-row: 3;
+    font-size: 1.2rem;
 }
 
-.floating3 {
-    clear: both;
-    float: left;
-    padding: 15px;
-    position: absolute;
-    top: 20rem;
-}
 .image {
-    height: 2rem;
-    width: 2rem;
-    position: absolute;
-    top: 8rem;
+    grid-row: 2;
 }
