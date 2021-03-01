@@ -13,6 +13,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .navopt {
@@ -38,7 +39,7 @@ a:visited {
     padding-left: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 5rem 3rem;
+    grid-template-rows: 10rem 5rem;
     gap: 5px;
     background-color: #e5e5dc;
     width: 35rem;
@@ -47,15 +48,18 @@ a:visited {
 
 .title {
     font-size: 2rem;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .subtitle {
     grid-row: 2;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .abouttext {
     grid-row: 3;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-family: 'Gurajada', serif;
 }
 
 .image {
@@ -72,14 +76,14 @@ a:visited {
     grid-template-columns: 20rem 20rem;
     grid-template-rows: 10rem 10rem;
     background-color: #e5e5dc;
-    width: 20rem;
-    height: 15rem;
+    width: 23rem;
     border: 3px #334259 solid;
     list-style: none;
 }
 
 .listtitle {
     font-size: 1.5rem;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .course {
@@ -90,4 +94,6 @@ a:visited {
 
 .courseitem {
     padding-top: 1rem;
+    font-family: 'Gurajada', serif;
+    font-size: 1.5rem;
 }
