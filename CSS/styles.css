@@ -1,0 +1,75 @@
+* {
+    background-color: #E5DADA;
+    font-family: 'Cutive Mono', monospace;
+}
+
+h1 {
+    color: #02040F;
+}
+
+h2 {
+    color: #02040F
+}
+
+p {
+    color: #02040F
+}
+
+.crumbs {
+    color: #002642;
+    border: 4mm ridge #E59500;
+    font-family: 'Cutive Mono', monospace;
+    float: left;
+}
+
+.crumbs {
+    padding: 0px;
+    text-decoration: none;
+    position: fixed;
+    z-index: 100;
+}
+
+.crumb {
+    display: inline;
+    padding: 8px;
+    text-align: center;
+    padding: 6px 8px;
+}
+
+.crumb:hover {
+    background-color: #002642;
+}
+
+#courselist {
+    color: #002642;
+    border: 4mm ridge #E59500;
+    font-family: 'Cutive Mono', monospace;
+    position: absolute;
+    top: 8rem
+}
+
+.floating1 {
+    clear: both;
+    float: right;
+    padding: 15px;
+}
+
+.floating2 {
+    clear: both;
+    float: right;
+    padding: 15px;
+}
+
+.floating3 {
+    clear: both;
+    float: left;
+    padding: 15px;
+    position: absolute;
+    top: 20rem;
+}
+.image {
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 8rem;
+}
