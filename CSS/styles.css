@@ -1,12 +1,13 @@
 body {
-    background-color: #db504a
+    background-color: #6e8783
 }
 
 header {
     height: 5rem;
-    background-color: #6e8783;
+    background-color: #db504a;
     top: 0;
     border: 3px #334259 solid;
+    position: sticky;
 }
 
 nav {
@@ -23,6 +24,7 @@ nav {
 
 .navitem {
     padding: 1rem;
+    color: #6e8783
 }
 
 .navitem:hover {
@@ -96,4 +98,26 @@ a:visited {
     padding-top: 1rem;
     font-family: 'Gurajada', serif;
     font-size: 1.5rem;
+}
+
+.tragedy {
+    margin-top: 2rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    display: grid;
+    grid-template-columns: 40rem 20rem;
+    grid-template-rows: 8rem 25rem;
+    background-color: #e5e5dc;
+    width: 50rem;
+    border: 3px #334259 solid;
+}
+
+.copypasta {
+    grid-row: 2;
+    font-family: 'Gurajada', serif;
+    font-size: 1.5rem;
+}
+
+.tragedyimage {
+    grid-row: 3;
 }
