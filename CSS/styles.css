@@ -121,3 +121,14 @@ a:visited {
 .tragedyimage {
     grid-row: 3;
 }
+
+footer {
+    height: 3rem;
+    background-color: #db504a;
+    border: 3px #334259 solid;
+    font-family: 'DotGothic16', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
